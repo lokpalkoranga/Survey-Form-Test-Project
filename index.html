@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Sheriyans Coding School Survey Form</h1>
+    <p>Name</p>
+    <form>
+      <input type="text" placeholder="Write Your Name" />
+      <p>Email</p>
+      <input type="email" placeholder="Write your name" />
+      <p>Age</p>
+      <input type="number" />
+      <p>Which Course You Took</p>
+      <select name="Course" id="Course">
+        <option value="Data Science and Analytics with GenAI">
+          Data Science and Analytics with GenAI
+        </option>
+        <option
+          value="2.0 Job Ready AI Powered Cohort: Complete Web Development + DSA + Gen-AI + Aptitude "
+        >
+          2.0 Job Ready AI Powered Cohort: Complete Web Development + DSA +
+          Gen-AI + Aptitude
+        </option>
+        <option value="DSA Domination Cohort">DSA Domination Cohort</option>
+        <option
+          value="Job Ready AI Powered Cohort: Complete Web Development + DSA + Aptitude"
+        >
+          Job Ready AI Powered Cohort: Complete Web Development + DSA + Aptitude
+        </option>
+        <option value="Three.js Domination">Three.js Domination</option>
+        <option value="Java & DSA Domination">Java & DSA Domination</option>
+        <option value="Front-End Domination: Create Anything with Code">
+          Front-End Domination: Create Anything with Code
+        </option>
+        <option value="Aptitude & Reasoning for Campus Placements">
+          Aptitude & Reasoning for Campus Placements
+        </option>
+      </select>
+
+      <p>Language or Framework Know(check all that apply)</p>
+      <input type="checkbox" id="WEB DEV" name="techstack" value="WEB DEV" />
+      <label for="WEB DEV">WEB DEV</label>
+      <br />
+      <input
+        type="checkbox"
+        id="DSA & ALGO"
+        name="techstack"
+        value="DSA & ALGO"
+      />
+      <label for="DSA & ALGO">DSA & ALGO</label><br />
+      <input type="checkbox" id="JAVA" name="techstack" value="JAVA" />
+      <label for="JAVA">JAVA</label>
+      <p>Would you recommend Sheriyans Coding School to others.</p>
+      <input type="radio" id="yes" name="rec" value="YES" />
+      <label for="Yes">Yes</label>
+      <br />
+      <input type="radio" id="no" name="rec" value="NO" />
+      <label for="No">No</label>
+      <br />
+      <input type="radio" id="maybe" name="rec" value="MAYBE" />
+      <label for="Maybe">Maybe</label>
+      <p>Write a Review</p>
+      <textarea placeholder="Write a Review"></textarea>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
