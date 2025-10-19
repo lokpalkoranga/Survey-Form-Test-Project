@@ -5,7 +5,6 @@
     ```bash
     git clone https://github.com/lokpalkoranga/survey-form.git
     ```
-    *(Replace the URL with your own repository link if you have one)*
 
 2.  **Navigate to the Project Directory:**
     ```bash
