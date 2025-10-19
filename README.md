@@ -3,7 +3,7 @@
 
 1.  **Clone or Download the Repository:**
     ```bash
-    git clone https://github.com/your-username/survey-form.git
+    git clone https://github.com/lokpalkoranga/survey-form.git
     ```
     *(Replace the URL with your own repository link if you have one)*
 
